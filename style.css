@@ -1,0 +1,115 @@
+    body {
+
+        color: white;
+        background: black;
+        margin: 0px;
+        font-family: "Jersey 10", sans-serif;
+        margin-bottom: 100px;
+    }
+
+    header {
+
+        border-bottom: solid 3px rgb(146, 9, 9);
+        padding: 30px;
+        font-size: 35px;
+        color: rgb(146, 9, 9);
+    }
+
+    .chamada-text h1 {
+        padding-left: 20px;
+        padding-right: 20pxs;
+    }
+
+    .chamada-text p {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .chamada {
+        background: rgb(146, 9, 9);
+        border-bottom: 80px;
+        border-top: 80px;
+        display: flex;
+        justify-content: auto;
+
+    }
+
+    .categoria-oscar {
+        opacity: 0.5;
+        height: 150px;
+    }
+
+    .categoria-oscar {
+        display: flex;
+        height: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+    .categoria-oscar:hover {
+        opacity: 1.0;
+        border: 3px solid rgb(146, 9, 9);
+    }
+
+    .text {
+        margin-right: 5%;
+    }
+
+    h1 {
+
+        font-size: 35px;
+    }
+
+    p {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    .categoria-filmes {
+        display: flex;
+        overflow-x: auto;
+        gap: 10px;
+    }
+
+    .categoria {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .categoria-filmes img {
+        opacity: 0.5;
+        height: 200px;
+    }
+
+    .categoria-filmes img:hover {
+        opacity: 1.0;
+        border: 3px solid rgb(146, 9, 9);
+    }
+
+    .categoria-series {
+
+        gap: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .series {
+        
+        display: flex;
+        overflow-x: auto;
+    }
+
+
+    .categoria-series img {
+        opacity: 0.5;
+        height: 200px;
+    }
+
+    .categoria-series img:hover {
+        opacity: 1.0;
+        border: 3px solid rgb(146, 9, 9);
+    }
